@@ -5,6 +5,15 @@
         <!-- FONT AWESOME -->
         
         <script src="https://kit.fontawesome.com/90f00de970.js" crossorigin="anonymous"></script>
+         <script>const readMoreLink = document.querySelector('.read-more-link');
+      const fullContent = document.querySelector('.full-content');
+      
+      readMoreLink.addEventListener('click', function(event) {
+         event.preventDefault();
+         fullContent.style.display = 'block';
+         this.style.display = 'none';
+      });
+      </script>
           
           
 
@@ -32,6 +41,18 @@
                     <a id="home" href="index.html">
                         C - F - C
                       </a>
+                    
+                <div class="full-content">
+                    <p>Welcome to our website, where NGOs and people in need can come together to create positive change in their communities. Our platform provides a space for NGOs to showcase their programs and initiatives, and for people in need to find the support and resources they require. We understand that NGOs often struggle to connect with the people they aim to serve, and that individuals in need may not always know where to turn. That's why we've created a user-friendly platform that facilitates these connections, making it easy for NGOs to find the support they need, and for people in need to access the services and assistance they require. Whether you're an NGO looking to expand your reach,or a person looking for help from NGO our goal is to create positive change in communities by providing a space where NGOs can showcase their programs and initiatives, and individuals can access the help they need.readmore...
+                    </p><p>
+                        We understand that NGOs often face challenges in reaching the people they aim to serve, while individuals in need may not always know where to turn for support. Our user-friendly platform facilitates these connections by providing a central hub for NGOs and individuals to connect and collaborate.
+           <br>             
+                        For NGOs, our platform offers a range of features to help showcase their programs and initiatives, including the ability to post updates, photos, and videos,or an individual seeking assistance, we invite you to explore our website and discover how we can help you connect with others and create a brighter future for all.</p></div>
+                        
+                        <div class="short-content">
+                            <p>Welcome to our website, where NGOs and people in need can come together to create positive change in their communities. Our platform provides a space for NGOs to showcase their programs and initiatives, and for people in need to find the support and resources they require. We understand that NGOs often struggle to connect with the people they aim to serve, and that individuals in need may not always know where to turn. That's why we've created a user-friendly platform that facilitates these connections, making it easy for NGOs to find the support they need, and for people in need to access the services and assistance they require. Whether you're an NGO looking to expand your reach,or a person looking for help from NGO our goal is to create positive change in communities by providing a space where NGOs can showcase their programs and initiatives, and individuals can access the help they need.</p>
+                            <p><a href="#" class="read-more-link">Read more</a></p>
+                         </div>
                       
                 </div >
                
