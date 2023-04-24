@@ -7,6 +7,10 @@ background: #A5D7E8;}
     color: white;
     
 }
+.full-content {
+   display: none;
+}
+
 
 .nav1:hover{
 
