@@ -1,3 +1,6 @@
+body{
+    background: #A5D7E8;}
+
 p{
     padding-top:  5%;
     
@@ -47,7 +50,9 @@ h4{
 }
 .form-main
 {
-    background: linear-gradient(90deg,#FEAC5E,#C779D0,#4BC0C8);
+    background: linear-gradient(90deg, #FEAC5E, #C779D0, #4BC0C8);
+			background-size: 300% 300%;
+			animation: gradient 10s ease infinite;
 }
 .intro
 {
@@ -91,14 +96,6 @@ padding-bottom: 3px;
      text-align: center;
 }
 
-#footerh{
-    background: #A5D7E8;
-    height: 100px;
-    padding: 4% 8%;
-    text-align: center;
-    bottom: 0;
-    
-}
 
 
 #footerh {
@@ -146,5 +143,17 @@ padding-bottom: 3px;
     .copright {
         font-size: 14px;
         margin-top: 10px;
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
     }
 }

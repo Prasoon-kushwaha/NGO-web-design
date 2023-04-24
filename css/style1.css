@@ -1,3 +1,6 @@
+body{
+background: #A5D7E8;}
+
 #header{
 
     background: #0B2447;
@@ -45,16 +48,7 @@ padding-bottom: 3px;
      font-family: monospace;
      text-align: center;
 }
-
-#footerh{
-    background: #A5D7E8;
-    height: 100px;
-    padding: 4% 8%;
-    text-align: center;
-    bottom: 0;
     
-}
-
 
 #footerh {
     background: #A5D7E8;
