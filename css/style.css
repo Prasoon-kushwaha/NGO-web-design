@@ -30,8 +30,15 @@ h3
 {
     font-weight: 900;
     margin-left: 3%;
-    
-
+}
+#home
+{
+    text-decoration: none;
+    color: #fff;
+}
+#home :after
+{
+    text-decoration: none;
 }
 .nav-bar-links
 {
@@ -46,25 +53,6 @@ padding-bottom: 3px;
     
     padding :10% 0 15% 15% ;
 }
-.copright
-{
-    
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
-    background: #A5D7E8;
-
-    height: 100%;
-    width: 100%;
-}
-.f-details
-{
- text-align: center;
- background: #A5D7E8;
- width: 100%;
- padding: 1%;
-}
-
 .wlcm
 
 {
@@ -94,31 +82,21 @@ text-align: center;
 max-height:900px ;
 
 }
-.icon
-{
-  
-   text-align: center;
-   height: 6%;
-   margin: 2% 7%;
-}
+
 .donate
 {
 
     text-align: center;
+}
+.Donate-cover
+{
+ padding : 3% 5%;
 }
 
 #header{
 
     background: #0B2447;
     color: white;
-    
-}
-#footerh{
-    background: #A5D7E8;
-    height: 100px;
-    padding: 4% 8%;
-    text-align: center;
-    bottom: 0;
     
 }
 
@@ -152,4 +130,53 @@ background-position: center;
     background-image: url("Pictures/NGOmedical.webp");
 background-size: cover;
 background-position: center;
+}
+
+
+#footerh {
+    background: #A5D7E8;
+    color: #000;
+    padding: 30px 0;
+}
+
+.f-details {
+    margin-bottom: 10px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+#footerh .row {
+    margin-bottom: 20px;
+}
+
+#footerh .col {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.copright {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 768px) {
+    #footerh .row {
+        margin-bottom: 20px;
+    }
+    
+    #footerh .col {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .icon {
+        margin-right: 5px;
+    }
+    
+    .copright {
+        font-size: 14px;
+        margin-top: 10px;
+    }
 }

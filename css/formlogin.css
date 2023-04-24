@@ -1,0 +1,150 @@
+p{
+    padding-top:  5%;
+    
+}
+h4{
+    padding-left:7%;
+    padding-right:10% ;
+}
+#header{
+
+    background: #0B2447;
+    color: white;
+    
+}
+
+.nav1:hover{
+
+    color: #fff;
+     line-height: 1.5rem;
+     font-family: monospace;
+     font-weight: 700;
+     border: 2px solid white;
+     text-align: center;
+}
+
+.navbar-brand
+{
+    font-weight: 900;
+    margin-left: 3%;
+}
+.inp
+{
+    text-align: center;
+    margin:6px;
+    background: transparent;
+    color:#fff;
+    border: 5px solid white;
+
+}
+.login-form
+{
+    padding: 5% 13% ;
+
+    
+    border-radius: 10px solid white;
+    color:white;
+}
+.form-main
+{
+    background: linear-gradient(90deg,#FEAC5E,#C779D0,#4BC0C8);
+}
+.intro
+{
+   padding-top: 10%;
+   padding-left: 4%;
+   padding-right:5%;
+    border-radius: 10px solid white;
+    color: #fff;
+}
+.form-div
+{
+   padding-left: 7%;
+   padding-right: 7%;
+   
+}
+#img-ngo
+{
+ 
+}
+#home
+{
+    text-decoration: none;
+    color: #fff;
+}
+#home :after
+{
+    text-decoration: none;
+}
+.nav-bar-links
+{
+
+font-weight: 100;
+margin : 1% 0 0 0;
+padding-bottom: 3px;
+}
+.nav1
+{
+    color: #fff;
+     line-height: 1.5rem;
+     font-family: monospace;
+     text-align: center;
+}
+
+#footerh{
+    background: #A5D7E8;
+    height: 100px;
+    padding: 4% 8%;
+    text-align: center;
+    bottom: 0;
+    
+}
+
+
+#footerh {
+    background: #A5D7E8;
+    color: #000;
+    padding: 30px 0;
+}
+
+.f-details {
+    margin-bottom: 10px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+#footerh .row {
+    margin-bottom: 20px;
+}
+
+#footerh .col {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.copright {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 768px) {
+    #footerh .row {
+        margin-bottom: 20px;
+    }
+    
+    #footerh .col {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .icon {
+        margin-right: 5px;
+    }
+    
+    .copright {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}
