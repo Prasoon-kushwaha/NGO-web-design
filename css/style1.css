@@ -4,6 +4,10 @@
     color: white;
     
 }
+.full-content {
+   display: none;
+}
+
 
 .nav1:hover{
 
