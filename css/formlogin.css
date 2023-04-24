@@ -3,12 +3,24 @@ body{
 
 p{
     padding-top:  5%;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 1.2rem;
     
 }
+@media screen and (max-width: 768px) {
+    p{
+        padding-top:  5%;
+        font-family:  'Montserrat', sans-serif;
+        font-size: 1rem;
+}}
 h4{
     padding-left:7%;
     padding-right:10% ;
 }
+h1{
+    font-family: 'Yeseva One' , 'cursive';
+}
+
 #header{
 
     background: #0B2447;

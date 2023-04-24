@@ -5,11 +5,24 @@ body{
 
 h1{
     font-weight: 900 ;
+    font-family: 'Yeseva One' , 'cursive';
 }
 h3
 {
     padding: 4% 15%;
 }
+p{
+    padding-top:  5%;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    
+}
+@media screen and (max-width: 768px) {
+    p{
+        padding-top:  5%;
+        font-family:  'Montserrat', sans-serif;
+        font-size: 1rem;
+}}
 .nav1
 {
     color: #fff;
@@ -26,10 +39,23 @@ h3
      border: 2px solid white;
      text-align: center;
 }
+.sec2
+{
+    margin-top : 15px;
+}
 .navbar-brand
 {
     font-weight: 900;
     margin-left: 3%;
+}
+.btn-lg
+{
+    margin-top: 1.5rem;
+    margin-left: 15px;
+}
+.sec1{
+
+    padding : 10px;
 }
 #home
 {
@@ -60,8 +86,8 @@ padding-bottom: 3px;
 }
 
 .Intro-brief{
-    font-size: 2rem;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-family:  'Poppins', sans-serif;;
 }
 .carousel-item
 {
@@ -102,7 +128,7 @@ max-height:900px ;
 
 #first-view
 {
-    font-family: 'Yeseva One' , 'cursive';
+    
     background: #19376D;
     color: aliceblue;
 
