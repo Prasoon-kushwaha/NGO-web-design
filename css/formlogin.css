@@ -62,7 +62,7 @@ h1{
 }
 .form-main
 {
-    background: linear-gradient(90deg, #FEAC5E, #C779D0, #4BC0C8);
+    background: linear-gradient(45deg, #FEAC5E, #C779D0, #4BC0C8);
 			background-size: 300% 300%;
 			animation: gradient 10s ease infinite;
 }

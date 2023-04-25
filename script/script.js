@@ -8,7 +8,7 @@ function submitForm(event) {
 
   // Send form data to server using XMLHttpRequest
   var xhr = new XMLHttpRequest();
-  xhr.open('POST', 'submit.sh', true);
+  xhr.open('POST', 'script.sh', true);
   xhr.onload = function() {
     // Handle server response here
   };
