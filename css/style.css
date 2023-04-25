@@ -7,6 +7,10 @@ h1{
     font-weight: 900 ;
     font-family: 'Yeseva One' , 'cursive';
 }
+img
+{
+    height: 400px;
+}
 h3
 {
     padding: 4% 15%;

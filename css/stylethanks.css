@@ -1,5 +1,4 @@
-body{
-    background: #A5D7E8;}
+
 
 .jumbotron {
     background-color: #fff;
@@ -12,10 +11,11 @@ p {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
 }
+#header{
 
-#Thanks-main
-{
-   background: linear-gradient(#c9ffbf,#ffafbd);
+    background: #0B2447;
+    color: white;
+    
 }
 .nav1:hover{
 
